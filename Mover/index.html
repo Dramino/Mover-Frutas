@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>Api HTML5 drag and drop (Arrastrar y soltar)</title>
+		<meta charset="utf-8"> 
+		<!-- Latest Bootstrap | compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="ddd-style.css" />
+	 </head> 
+	<body> <div class="contenedor">
+		
+		<h1><p>Drag and Drop (Arrastrar y Soltar) en HTML5</p>
+		<h3>Arrastra: cereza, durzano, kiwi, limon, mandarina y mango</h3> 
+		<div id="contenedor" ondrop="soltar(event)" ondragover="permitirSoltar(event)"></div>
+		<div id="imagenes">
+			<img id="1" src="img/cereza.png" draggable="true" ondragstart="arrastrar(event)"" WIDTH=50 HEIGHT=50>
+			<img id="2" src="img/durazno.png" draggable="true" ondragstart="arrastrar(event)"" WIDTH=50 HEIGHT=50>
+			<img id="3" src="img/kiwi.png" draggable="true" ondragstart="arrastrar(event)"" WIDTH=50 HEIGHT=50>
+			<img id="4" src="img/limon.png" draggable="true" ondragstart="arrastrar(event)"" WIDTH=50 HEIGHT=50>
+			<img id="5" src="img/mandarina.png" draggable="true" ondragstart="arrastrar(event)"" WIDTH=50 HEIGHT=50>
+			<img id="6" src="img/mango.png" draggable="true" ondragstart="arrastrar(event)"" WIDTH=50 HEIGHT=50>
+			<img id="7" src="img/manzana.png" draggable="true" ondragstart="arrastrar(event)"" WIDTH=50 HEIGHT=50>
+			<img id="8" src="img/naranja.png" draggable="true" ondragstart="arrastrar(event)"" WIDTH=50 HEIGHT=50>
+			<img id="9" src="img/pera.png" draggable="true" ondragstart="arrastrar(event)"" WIDTH=50 HEIGHT=50>
+			<img id="10" src="img/piña.png" draggable="true" ondragstart="arrastrar(event)"" WIDTH=50 HEIGHT=50>
+			<img id="11" src="img/platano.png" draggable="true" ondragstart="arrastrar(event)"" WIDTH=50 HEIGHT=50>
+			<img id="12" src="img/uva.png" draggable="true" ondragstart="arrastrar(event)"" WIDTH=50 HEIGHT=50>
+		</div>
+		<h1 id="resultado"></h1>
+		</div> 
+	</body> 
+	<script src="ddd-script.js"></script>
+</html>
